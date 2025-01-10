@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsrdb.db_feiln_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsrdb.db_feiln_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_feiln_cifkey</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_feiln_lnact</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_feiln_ovduact</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+

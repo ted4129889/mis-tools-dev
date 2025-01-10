@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsddb.db_ckhmr_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsddb.db_ckhmr_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_ckhmr_entpno</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_ckhmr_pidno</fieldName>
+        <maskType>1</maskType>
+    </field>
+</data>
+

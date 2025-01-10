@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsrdb.db_gldpmr_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsrdb.db_gldpmr_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_gldpmr_heritid</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpmr_heriterr</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpmr_brno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpmr_apno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpmr_srno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpmr_chkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpmr_invact</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpmr_telact</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+

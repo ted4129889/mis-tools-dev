@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsddb.db_pbhmr_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsddb.db_pbhmr_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_pbhmr_entpno</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbhmr_pidno</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbhmr_cmpentpno</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbhmr_brno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbhmr_apno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbhmr_srno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbhmr_chkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+

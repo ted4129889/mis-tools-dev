@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsrdb.db_gldpsa_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsrdb.db_gldpsa_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_gldpsa_brno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpsa_apno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpsa_srno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpsa_chkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpsa_sabrno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpsa_saapno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpsa_sasrno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_gldpsa_sachkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+

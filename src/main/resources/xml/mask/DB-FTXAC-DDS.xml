@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsrdb.db_ftxac_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsrdb.db_ftxac_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_ftxac_cifkey</fieldName>
+        <maskType>1</maskType>
+    </field>
+</data>
+

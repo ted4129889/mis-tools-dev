@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsrdb.db_fmtmr_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsrdb.db_fmtmr_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_fmtmr_brno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_fmtmr_apno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_fmtmr_srno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_fmtmr_chkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_fmtmr_mbrno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_fmtmr_mapno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_fmtmr_msrno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_fmtmr_mchkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+

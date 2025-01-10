@@ -1,0 +1,10 @@
+apili:
+  - name: MisAb374
+    fmtId: CL_BATCH_I
+    txType: U # I:查詢類,U:更新類
+    service:
+      #D904101
+      - name : MisGetAb297
+      #D904102
+      - name : MisGetAb374
+

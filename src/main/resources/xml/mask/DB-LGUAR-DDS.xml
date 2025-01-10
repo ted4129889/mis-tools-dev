@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsrdb.db_lguar_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsrdb.db_lguar_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_lguar_entpno</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_lguar_filler</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_lguar_actno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_lguar_name</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+

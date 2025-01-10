@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botlddb.db_lsco_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botlddb.db_lsco_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_lsco_pidno</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_lsco_brno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_lsco_apno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_lsco_srno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_lsco_chkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_lsco_ipactn</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_lsco_trpact</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_lsco_name</fieldName>
+        <maskType>4</maskType>
+    </field>
+    <field>
+        <fieldName>db_lsco_tela</fieldName>
+        <maskType>4</maskType>
+    </field>
+</data>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsrdb.db_ladv_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsrdb.db_ladv_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_ladv_brno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_ladv_apno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_ladv_srno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_ladv_chkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_ladv_oactno</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+

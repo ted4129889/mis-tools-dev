@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botlddb.db_llmr_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botlddb.db_llmr_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_llmr_brno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_llmr_apno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_llmr_srno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_llmr_chkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+

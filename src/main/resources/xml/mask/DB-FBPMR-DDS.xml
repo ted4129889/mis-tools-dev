@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsrdb.db_fbpmr_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsrdb.db_fbpmr_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_fbpmr_cifkey</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_fbpmr_ovduact</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+

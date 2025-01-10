@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botlddb.db_pbmr_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botlddb.db_pbmr_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_pbmr_entpno</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbmr_pidno</fieldName>
+        <maskType>1</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbmr_brno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbmr_apno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbmr_srno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbmr_chkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbmr_xwbrno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbmr_xwapno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbmr_xwsrno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbmr_xwchkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbmr_telno</fieldName>
+        <maskType>7</maskType>
+    </field>
+</data>
+

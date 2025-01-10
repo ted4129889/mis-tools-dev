@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botsmdb.db_lcthtr_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botsmdb.db_lcthtr_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_lcthtr_brno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_lcthtr_apno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_lcthtr_srno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_lcthtr_chkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+

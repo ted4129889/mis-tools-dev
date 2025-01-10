@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>botlddb.db_pbov_dds</table>
+    <sql>
+        SELECT
+        *
+        FROM
+        botlddb.db_pbov_dds
+        <param>batchDate</param>
+    </sql>
+    <field>
+        <fieldName>db_pbov_brno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbov_apno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbov_srno</fieldName>
+        <maskType>2</maskType>
+    </field>
+    <field>
+        <fieldName>db_pbov_chkdg</fieldName>
+        <maskType>2</maskType>
+    </field>
+</data>
+
