@@ -72,20 +72,20 @@
 ## 子專案結構
 - ### Api
     - #### Input Value Object
-        - #### com.bot.mis/adapter/in/api/
+        - #### com.bot.toolsdev/adapter/in/api/
     - #### Output Value Object
-        - #### com.bot.mis/adapter/out/api
+        - #### com.bot.toolsdev/adapter/out/api
     - #### Value Object Mapper
-        - #### com.bot.mis/mapper/
+        - #### com.bot.toolsdev/mapper/
 - ### Service
     - #### 交易事件 (可透過工具產生空白範例)
-        - #### com.bot.mis/adapter/event/app/evt/
+        - #### com.bot.toolsdev/adapter/event/app/evt/
     - #### 交易監聽器(交易邏輯撰寫位置),(可透過工具產生空白範例)
-        - #### com.bot.mis/adapter/event/app/lsnr/
+        - #### com.bot.toolsdev/adapter/event/app/lsnr/
     - #### Service Input Value Object(可透過工具讀取xml產生)
-        - #### com.bot.mis/adapter/in/svc/
+        - #### com.bot.toolsdev/adapter/in/svc/
     - #### Service Output Value Object(可透過工具讀取xml產生)
-        - #### com.bot.mis/adapter/out/svc/
+        - #### com.bot.toolsdev/adapter/out/svc/
 - ### Util
     - #### VO && class
         - #### com/bot/(專案名稱)/util/(分類1)/(小分類2)/.../
@@ -148,7 +148,7 @@
                responseCase : response value object
 - ### 轉型
     - #### Parse(使用@Autowired or ApplicationContextUtil.getParse())
-        - #### method (ex. [Ssvc01Lsnr.java parseSample()](ssvc01/src/main/java/com.bot.mis/adapter/event/app/lsnr/Ssvc01Lsnr.java#L55))
+        - #### method (ex. [Ssvc01Lsnr.java parseSample()](ssvc01/src/main/java/com.bot.toolsdev/adapter/event/app/lsnr/Ssvc01Lsnr.java#L55))
             - #### decimal2String(T value)
                   將數字型別(int long float double BigDecimal)轉型為字串，如轉型失敗，回傳值為NULL
             - #### decimal2StringPadZero(T value, int precision)
@@ -165,7 +165,7 @@
                   判斷字串是否為數字
 - ### 補位
     - #### FormatUtil
-        - #### method (ex. [Ssvc01Lsnr.java formatUtilSample()](ssvc01/src/main/java/com.bot.mis/adapter/event/app/lsnr/Ssvc01Lsnr.java#L89))
+        - #### method (ex. [Ssvc01Lsnr.java formatUtilSample()](ssvc01/src/main/java/com.bot.toolsdev/adapter/event/app/lsnr/Ssvc01Lsnr.java#L89))
             - #### FormatUtil.padX(String value, int len)
                   字串右補空白
             - #### FormatUtil.padLeft(String value, int len)
@@ -186,7 +186,7 @@
                   將字串轉為對應物件
 - ### 字串切位
     - #### CutAndCount
-        - #### method (ex. [Ssvc01Lsnr.java cutAndCountSample()](ssvc01/src/main/java/com.bot.mis/adapter/event/app/lsnr/Ssvc01Lsnr.java#L113))
+        - #### method (ex. [Ssvc01Lsnr.java cutAndCountSample()](ssvc01/src/main/java/com.bot.toolsdev/adapter/event/app/lsnr/Ssvc01Lsnr.java#L113))
             - #### CutAndCount.stringCutBaseOnBUR(String text, int sPos, int len)
                   以優利碼長度計算切位
             - #### CutAndCount.stringCutBaseOnBig5(String text, int sPos, int len)
@@ -195,7 +195,7 @@
                   以自訂編碼切位(從0開始算)
 - ### Date
     - #### DateUtil(@Autowired or ApplicationContextUtil.getDateUtil())
-        - #### method (ex. [Ssvc01Lsnr.java dateUtilSample()](ssvc01/src/main/java/com.bot.mis/adapter/event/app/lsnr/Ssvc01Lsnr.java#L134))
+        - #### method (ex. [Ssvc01Lsnr.java dateUtilSample()](ssvc01/src/main/java/com.bot.toolsdev/adapter/event/app/lsnr/Ssvc01Lsnr.java#L134))
             - #### boolean dateChk(String value | int value)
                   檢查日期是否正確
             - #### int bcToRoc(int value)
@@ -246,12 +246,12 @@
 - ### 交易事件可用參數
 - ### 共用變數
     - #### TxCom (共用參數 by Thread)
-        - #### ex. [Ssvc02Lsnr.java getTxComSample()](ssvc02/src/main/java/com.bot.mis/adapter/event/app/lsnr/Ssvc02Lsnr.java#L33))
+        - #### ex. [Ssvc02Lsnr.java getTxComSample()](ssvc02/src/main/java/com.bot.toolsdev/adapter/event/app/lsnr/Ssvc02Lsnr.java#L33))
     - #### TpMap (交易暫存 for 更正 沖正)
-        - #### ex. [Ssvc02Lsnr.java getTpMapSample()](ssvc02/src/main/java/com.bot.mis/adapter/event/app/lsnr/Ssvc02Lsnr.java#L351))
+        - #### ex. [Ssvc02Lsnr.java getTpMapSample()](ssvc02/src/main/java/com.bot.toolsdev/adapter/event/app/lsnr/Ssvc02Lsnr.java#L351))
 
     - #### MgGlobal (交易基本共用參數)
-        - #### ex. [Ssvc02Lsnr.java getMgGlobalSample()](ssvc02/src/main/java/com.bot.mis/adapter/event/app/lsnr/Ssvc02Lsnr.java#L244))
+        - #### ex. [Ssvc02Lsnr.java getMgGlobalSample()](ssvc02/src/main/java/com.bot.toolsdev/adapter/event/app/lsnr/Ssvc02Lsnr.java#L244))
 
 
 ## 撰寫規則
@@ -265,9 +265,9 @@
     - #### DB Entity欄位變數一律小寫(DB本身全大寫)
     - #### 
 - ### 折返
-    - #### ex. [Ssvc01Lsnr.java s006Sample()](ssvc01/src/main/java/com.bot.mis/adapter/event/app/lsnr/Ssvc01Lsnr.java#L229) (NCL)
+    - #### ex. [Ssvc01Lsnr.java s006Sample()](ssvc01/src/main/java/com.bot.toolsdev/adapter/event/app/lsnr/Ssvc01Lsnr.java#L229) (NCL)
 - ### 要求授權
-    - #### ex. [Ssvc01Lsnr.java hasAuth()](ssvc01/src/main/java/com.bot.mis/adapter/event/app/lsnr/Ssvc01Lsnr.java#L245) (NCL)
+    - #### ex. [Ssvc01Lsnr.java hasAuth()](ssvc01/src/main/java/com.bot.toolsdev/adapter/event/app/lsnr/Ssvc01Lsnr.java#L245) (NCL)
 
 - ### Log規範
     - #### 於class添加@Slf4j註釋

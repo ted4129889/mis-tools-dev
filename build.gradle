@@ -36,10 +36,7 @@ def commonsLang3 = '3.14.0'
 dependencies {
     implementation("com.bot.mis:txcontrol:1.0.0") { changing = true }
     //XML功能
-    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.2")
-
-    // COMMON
-    implementation project(":common")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.17.2")
 
 
 }
@@ -57,12 +54,12 @@ def sourceFilter = { env ->
     }
 }
 bootJar {
-    archiveFileName = "bot-mis-app.jar"
+    archiveFileName = "bot-toolsdev-app.jar"
 }
 
 bootWar {
     sourceFilter("")
-    archiveFileName = "bot-mis-app.war"
+    archiveFileName = "bot-toolsdev-app.war"
     webInf { from 'webapp/WEB-INF' }
     doFirst {
         delete("${buildDir}/resources/main/application-local.yml")

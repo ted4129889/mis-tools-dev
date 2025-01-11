@@ -9,8 +9,8 @@ def privateKey = file(System.properties['user.home'] + "/.ssh/id_rsa")
 def deploy_remotes = [
         DEV_server: [
             env: ['dev'],
-            app_home: '/app/fsap/fsap-mis',
-            jar_name: 'mis.jar',
+            app_home: '/app/fsap/fsap-toolsdev',
+            jar_name: 'toolsdev.jar',
             is_jboss: false,
             //spring_config_filename: 'DEV.MGW1.config.yml',
             server: [
@@ -22,7 +22,7 @@ def deploy_remotes = [
         SIT_server: [
             env: ['sit'],
             app_home: '/home/jbossadm/war',
-            jar_name: 'bot-mis-app.war',
+            jar_name: 'bot-toolsdev-app.war',
             is_jboss: true,
             //spring_config_filename: 'DEV.OGW1.config.yml',
             server: [

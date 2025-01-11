@@ -7,3 +7,6 @@ spring:
 #      - optional:/app/fsap/fsap-mis/application-config.yml
 #      - optional:/app/config/application-config.yml
   doubleLine: 0
+#spring:
+#  application:
+#    name: ToolsDev

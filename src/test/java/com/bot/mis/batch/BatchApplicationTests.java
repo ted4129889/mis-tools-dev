@@ -1,5 +1,5 @@
 /* (C) 2024 */
-package com.bot.mis.batch;
+package com.bot.common.util.batch;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
